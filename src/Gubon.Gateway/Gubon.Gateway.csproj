@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <SignAssembly>False</SignAssembly>
+	  <Version>1.0.1</Version>
+	  <Copyright>eddy@gzwiz.com</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="views\android-chrome-512x512.png" />
+    <None Remove="views\assets\_...all_-89567759.css" />
+    <None Remove="views\assets\_...all_-eb7b457a.js" />
+    <None Remove="views\browser_upgrade\chrome.png" />
+    <None Remove="views\browser_upgrade\index.css" />
+    <None Remove="views\favicon.ico" />
+    <None Remove="views\index.html" />
+    <None Remove="views\loading.css" />
+    <None Remove="views\site.webmanifest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.7.0" />
+    <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.7.0" />
+    <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.7.0" />
+    <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.5.0-beta.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gubon.Gateway.Middleware\Gubon.Gateway.Middleware.csproj" />
+    <ProjectReference Include="..\Gubon.Gateway.Store.FreeSql\Gubon.Gateway.Store.FreeSql.csproj" />
+    <ProjectReference Include="..\Gubon.Gateway.TransformFactory\Gubon.Gateway.TransformFactory.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="gubon.sqlite3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+
+
+</Project>

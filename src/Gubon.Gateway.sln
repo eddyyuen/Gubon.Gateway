@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gubon.Gateway", "Gubon.Gateway\Gubon.Gateway.csproj", "{2E0B9868-942C-4DBC-BF75-1D24464F23BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gubon.Gateway.Middleware", "Gubon.Gateway.Middleware\Gubon.Gateway.Middleware.csproj", "{E130FF6C-5368-4CB7-8E7F-42EBE3CE11CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gubon.Gateway.TransformFactory", "Gubon.Gateway.TransformFactory\Gubon.Gateway.TransformFactory.csproj", "{BC8EAF94-A1E8-4AB9-AAC7-FD1432BF9115}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gubon.Gateway.Store", "Gubon.Gateway.Store\Gubon.Gateway.Store.csproj", "{60358160-3A31-4BEC-A90A-5E0780F4F597}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gubon.Gateway.Store.FreeSql", "Gubon.Gateway.Store.FreeSql\Gubon.Gateway.Store.FreeSql.csproj", "{F7116C29-11F6-45CD-ABB7-403C767D9253}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gubon.Gateway.Utils", "Gubon.Gateway.Utils\Gubon.Gateway.Utils.csproj", "{A26ED164-940C-435E-BDA8-F6EA7AB011EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E0B9868-942C-4DBC-BF75-1D24464F23BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E0B9868-942C-4DBC-BF75-1D24464F23BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E0B9868-942C-4DBC-BF75-1D24464F23BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E0B9868-942C-4DBC-BF75-1D24464F23BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E130FF6C-5368-4CB7-8E7F-42EBE3CE11CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E130FF6C-5368-4CB7-8E7F-42EBE3CE11CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E130FF6C-5368-4CB7-8E7F-42EBE3CE11CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E130FF6C-5368-4CB7-8E7F-42EBE3CE11CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC8EAF94-A1E8-4AB9-AAC7-FD1432BF9115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC8EAF94-A1E8-4AB9-AAC7-FD1432BF9115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC8EAF94-A1E8-4AB9-AAC7-FD1432BF9115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC8EAF94-A1E8-4AB9-AAC7-FD1432BF9115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60358160-3A31-4BEC-A90A-5E0780F4F597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60358160-3A31-4BEC-A90A-5E0780F4F597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60358160-3A31-4BEC-A90A-5E0780F4F597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60358160-3A31-4BEC-A90A-5E0780F4F597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7116C29-11F6-45CD-ABB7-403C767D9253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7116C29-11F6-45CD-ABB7-403C767D9253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7116C29-11F6-45CD-ABB7-403C767D9253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7116C29-11F6-45CD-ABB7-403C767D9253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A26ED164-940C-435E-BDA8-F6EA7AB011EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26ED164-940C-435E-BDA8-F6EA7AB011EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26ED164-940C-435E-BDA8-F6EA7AB011EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A26ED164-940C-435E-BDA8-F6EA7AB011EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B6C1E9D-8842-400D-B95C-7BE7D98A9528}
+	EndGlobalSection
+EndGlobal
