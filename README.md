@@ -1,4 +1,4 @@
-<h1 align="center">Fantastic-admin</h1>
+<h1 align="center">Gubon.Gateway</h1>
 
 <p align="center">一款基于 <b>YARP</b> 的<b>开箱即用</b>的.Net 网关</p>
 
